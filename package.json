@@ -2,7 +2,7 @@
   "name": "forkify",
   "description": "Reciepe application",
   "version": "1.0.0",
-  "main": "index.js",
+  "default": "index.html",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.6.0",
     "browserify-zlib": "^0.2.0",
@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "repository": {
     "type": "git",

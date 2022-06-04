@@ -43,7 +43,6 @@ export default class View {
 
   _clear() {
     this._parentElement.innerHTML = '';
-    console.log(this._parentElement);
   }
 
   renderSpinner() {
